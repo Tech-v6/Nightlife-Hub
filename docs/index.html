@@ -3,23 +3,30 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>NightLife Hub — Install NIGHTHUB on your phone</title>
-<meta name="description" content="NightLife Hub: live venues, table ordering, split bills, AI hosts and live boards. Install on your iPhone or Android home screen — Google Play release in review." />
-<meta property="og:title" content="NightLife Hub — Install NIGHTHUB on your phone" />
-<meta property="og:description" content="Install the all-in-one nightlife, dining and venue access app. Works on iOS and Android." />
+<title>NightLife Hub — Install NIGHTHUB on Android &amp; iPhone</title>
+<meta name="description" content="Download and install NIGHTHUB on Android or iPhone: live venues, table ordering, split bills, AI hosts, live boards and passes. Add to your home screen in seconds — Google Play release in review." />
+<meta property="og:title" content="NightLife Hub — Install NIGHTHUB on Android &amp; iPhone" />
+<meta property="og:description" content="Install the all-in-one nightlife, dining and venue access app. Works on iOS and Android, no store account needed." />
 <meta property="og:type" content="website" />
+<meta property="og:image" content="https://seat-snap-dine.lovable.app/app-icon-512.png" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://seat-snap-dine.lovable.app/app-icon-512.png" />
+<meta name="theme-color" content="#050a18" />
 <link rel="icon" href="https://seat-snap-dine.lovable.app/favicon.png" />
+<link rel="apple-touch-icon" href="https://seat-snap-dine.lovable.app/apple-touch-icon.png" />
+<link rel="manifest" href="https://seat-snap-dine.lovable.app/manifest.webmanifest" />
 <style>
   :root { --bg:#050a18; --card:#0b1327; --line:#16223d; --blue:#3aa9ff; --ink:#e9f1ff; --mute:#93a4c4; }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-  .wrap{max-width:720px;margin:0 auto;padding:40px 20px 64px}
-  h1{font-size:44px;line-height:1.1;margin:0 0 12px;color:var(--blue);text-align:center;font-weight:900}
-  .sub{color:#c9d7ef;text-align:center;margin:0 auto 28px;max-width:520px}
+  .wrap{max-width:720px;margin:0 auto;padding:36px 20px 64px}
+  .brand{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:14px}
+  .brand img{width:76px;height:76px;border-radius:20px;box-shadow:0 0 34px rgba(58,169,255,.45)}
+  h1{font-size:42px;line-height:1.1;margin:0 0 12px;color:var(--blue);text-align:center;font-weight:900}
+  .sub{color:#c9d7ef;text-align:center;margin:0 auto 26px;max-width:520px}
   .row{display:flex;gap:10px;margin:0 0 14px}
   input{flex:1;background:#0d1730;border:1px solid var(--line);border-radius:10px;color:var(--ink);padding:14px}
-  .btn{display:block;text-align:center;text-decoration:none;font-weight:800;border-radius:12px;padding:16px;border:0;cursor:pointer}
+  .btn{display:flex;align-items:center;justify-content:center;gap:10px;text-align:center;text-decoration:none;font-weight:800;border-radius:12px;padding:16px;border:0;cursor:pointer}
   .primary{background:#0f6fbd;color:#fff;box-shadow:0 0 24px rgba(58,169,255,.35)}
   .green{background:#0b5c17;color:#fff;margin-top:10px}
   .ghost{background:#0d1730;color:var(--ink);border:1px solid var(--line);margin-top:10px}
@@ -29,12 +36,18 @@
   ul{margin:8px 0 0;padding-left:20px;color:#c9d7ef}
   li{margin:6px 0}
   .pill{display:inline-block;background:#10233d;border:1px solid var(--line);color:#bcd3f2;border-radius:999px;padding:8px 14px;font-size:13px;font-weight:700}
+  .icons{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:12px}
+  .icons figure{margin:0;text-align:center;color:var(--mute);font-size:12px}
+  .icons img{width:64px;height:64px;border-radius:16px;border:1px solid var(--line);display:block;margin:0 auto 6px}
   footer{color:var(--mute);text-align:center;font-size:13px;margin-top:32px}
   ol{color:#c9d7ef}
 </style>
 </head>
 <body>
 <div class="wrap">
+  <div class="brand">
+    <img src="https://seat-snap-dine.lovable.app/app-icon-512.png" alt="NIGHTHUB app icon" width="76" height="76" />
+  </div>
   <h1>NightLife Hub</h1>
   <p class="sub">The all-in-one platform transforming how you experience city nightlife, dining, and venue access.</p>
 
@@ -43,15 +56,27 @@
     <button class="btn primary" type="submit" style="padding:14px 18px">Join Waitlist</button>
   </form>
 
-  <a class="btn primary" id="installBtn" href="https://seat-snap-dine.lovable.app/download">📲 Install App on Phone</a>
-  <a class="btn green" href="https://seat-snap-dine.lovable.app">🚀 Open App Link</a>
+  <a class="btn primary" id="installBtn" href="https://seat-snap-dine.lovable.app/download">📲 Add to Phone Screen — Install App</a>
+  <a class="btn green" href="https://seat-snap-dine.lovable.app/download">🤖 Download for Android</a>
+  <a class="btn ghost" href="https://seat-snap-dine.lovable.app/download">🍎 Download for iPhone &amp; iPad</a>
+  <a class="btn ghost" href="https://seat-snap-dine.lovable.app">🚀 Open App Link</a>
   <a class="btn ghost" href="https://play.google.com/store" rel="noopener">▶️ Google Play — release in review</a>
   <p style="text-align:center;margin-top:14px"><span class="pill">Add to Home Screen • no store account • auto-updates</span></p>
 
   <div class="card">
+    <h2>🎨 App icons</h2>
+    <p>The icon you get on your home screen, in every size we ship.</p>
+    <div class="icons">
+      <figure><img src="https://seat-snap-dine.lovable.app/app-icon-192.png" alt="NIGHTHUB icon 192px" />192px</figure>
+      <figure><img src="https://seat-snap-dine.lovable.app/app-icon-512.png" alt="NIGHTHUB icon 512px" />512px</figure>
+      <figure><img src="https://seat-snap-dine.lovable.app/apple-touch-icon.png" alt="NIGHTHUB Apple touch icon" />iOS</figure>
+    </div>
+  </div>
+
+  <div class="card">
     <h2>📱 Add to your phone screen</h2>
     <p><strong>Android (Chrome / Samsung Internet):</strong></p>
-    <ol><li>Open the app link above</li><li>Tap the ⋮ menu</li><li>Tap “Install app” / “Add to Home screen”</li></ol>
+    <ol><li>Tap “Download for Android” above</li><li>Tap the ⋮ menu</li><li>Tap “Install app” / “Add to Home screen”</li></ol>
     <p style="margin-top:10px"><strong>iPhone &amp; iPad (Safari):</strong></p>
     <ol><li>Open the app link in Safari</li><li>Tap the Share button</li><li>Tap “Add to Home Screen” → Add</li></ol>
   </div>
